@@ -8,7 +8,6 @@ class OutOfStock(Exception):
     pass
 
 
-
 @dataclass(frozen=True)
 class OrderLine:
     orderid: str
